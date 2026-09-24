@@ -1,0 +1,9 @@
+[package]
+name = "git-shim"
+version = "0.1.0"
+edition = "2024"
+description = "A Git shim that removes one unwanted Claude co-author trailer"
+
+[[bin]]
+name = "git"
+path = "src/main.rs"
